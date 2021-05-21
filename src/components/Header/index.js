@@ -9,9 +9,9 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#/">Home</Nav.Link>
-          <Nav.Link href="#/projects">Portfolio</Nav.Link>
-          <Nav.Link href="#/contact">Contact</Nav.Link>
+          <Nav.Link href="/oli-s-react-portfolio/#/">Home</Nav.Link>
+          <Nav.Link href="/oli-s-react-portfolio/#/projects">Portfolio</Nav.Link>
+          <Nav.Link href="/oli-s-react-portfolio/#/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
