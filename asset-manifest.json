@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/oli-s-react-portfolio/static/css/main.c04d1776.chunk.css",
-    "main.js": "/oli-s-react-portfolio/static/js/main.959ebf6c.chunk.js",
-    "main.js.map": "/oli-s-react-portfolio/static/js/main.959ebf6c.chunk.js.map",
+    "main.js": "/oli-s-react-portfolio/static/js/main.fc22eaa8.chunk.js",
+    "main.js.map": "/oli-s-react-portfolio/static/js/main.fc22eaa8.chunk.js.map",
     "runtime-main.js": "/oli-s-react-portfolio/static/js/runtime-main.60eb73b8.js",
     "runtime-main.js.map": "/oli-s-react-portfolio/static/js/runtime-main.60eb73b8.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/oli-s-react-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.87dbd3d7.chunk.js",
     "static/css/main.c04d1776.chunk.css",
-    "static/js/main.959ebf6c.chunk.js"
+    "static/js/main.fc22eaa8.chunk.js"
   ]
 }
