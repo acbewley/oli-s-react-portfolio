@@ -1,19 +1,20 @@
 import React from 'react';
+import './style.css'
+import {Navbar, Nav} from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: "#5b7444" }}>
-      <div className="container-fluid" style={{ backgroundColor: "#5b7444" }}>
-        <a className="navbar-brand" style={{ color: 'white' }}>Oliver Bewley</a>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-link" href="/" style={{ color: 'white' }}>Home</a>
-            <a className="nav-link" href="/projects" style={{ color: 'white' }}>Projects</a>
-            <a className="nav-link" href="/contact" style={{ color: 'white' }}>Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <Navbar variant="dark" className="color-nav" expand="lg">
+      <Navbar.Brand href="#home">Oliver Bewley</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/projects">Portfolio</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 
