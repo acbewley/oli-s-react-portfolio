@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Jumbo({ title, children }) {
   return (
-    <div className="container" id="jumbo" style={{ marginTop: '20px', backgroundColor: 'white' }}>
+    <div className="container" id="jumbo" style={{ marginTop: '20px', backgroundColor: 'white', padding: '20px' }}>
       <div className='jumbotron'>
         <h1 className='display-4'>{title}</h1>
         <hr className="my-4" />
@@ -33,5 +33,11 @@ export function Img(props) {
 
   return (
     <img className='col-3' src={src} alt={alt} title={alt} style={{padding: '20px'}} />
+  )
+}
+
+export function Link({href, children}) {
+  return (
+    <a className='col-9' href={href}>{children}</a>
   )
 }
