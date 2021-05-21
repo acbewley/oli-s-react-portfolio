@@ -5,9 +5,7 @@ import pgImg from '../images/password-generator.png';
 import qImg from '../images/quiz.png';
 import sImg from '../images/scheduler.png';
 import gImg from '../images/gardenista.png';
-import { Card, Jumbo, JumboContent, JumboText } from '../components/Jumbo/index';
-
-const text = 'nice'
+import { Card, Jumbo, JumboContent } from '../components/Jumbo/index';
 
 function Projects() {
   return (
